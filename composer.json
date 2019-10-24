@@ -1,12 +1,13 @@
 {
     "name": "laravel-notification-channels/moceanapi",
-    "description": ":package_description",
+    "description": "MoceanAPI notifications channel for Laravel 5.5+",
     "homepage": "https://github.com/laravel-notification-channels/moceanapi",
     "license": "MIT",
     "authors": [
         {
             "name": "NeoSon",
             "email": "lkloon123@hotmail.com",
+            "homepage": "https://github.com/lkloon123",
             "role": "Developer"
         }
     ],
@@ -35,5 +36,12 @@
     },
     "config": {
         "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NotificationChannels\\MoceanApi\\MoceanApiServiceProvider"
+            ]
+        }
     }
 }
