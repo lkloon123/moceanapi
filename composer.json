@@ -1,20 +1,20 @@
 {
-    "name": "laravel-notification-channels/:package_name",
+    "name": "laravel-notification-channels/moceanapi",
     "description": ":package_description",
-    "homepage": "https://github.com/laravel-notification-channels/:package_name",
+    "homepage": "https://github.com/laravel-notification-channels/moceanapi",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
-            "homepage": ":author_website",
+            "name": "NeoSon",
+            "email": "lkloon123@hotmail.com",
             "role": "Developer"
         }
     ],
     "require": {
         "php": ">=7.2",
         "illuminate/notifications": "~5.5 || ~6.0",
-        "illuminate/support": "~5.5 || ~6.0"
+        "illuminate/support": "~5.5 || ~6.0",
+        "mocean/laravel-mocean": "^2.0"
     },
     "require-dev": {
         "mockery/mockery": "^1.0",
@@ -22,12 +22,12 @@
     },
     "autoload": {
         "psr-4": {
-            "NotificationChannels\\:channel_namespace\\": "src"
+            "NotificationChannels\\MoceanApi\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "NotificationChannels\\:channel_namespace\\Test\\": "tests"
+            "NotificationChannels\\MoceanApi\\Test\\": "tests"
         }
     },
     "scripts": {
